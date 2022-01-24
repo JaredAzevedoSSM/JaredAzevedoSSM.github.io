@@ -1,0 +1,112 @@
+body{
+    font-family:Ubuntu, sans-serif;
+}
+.navbar{
+    background-color:rgba(255, 255, 255, 0);
+    transition:ease-in 0.2s;
+    padding-top:11px;
+    padding-bottom:11px;
+}
+.navbar-collapse{
+    text-align:right;
+}
+.footer-container{
+    background-color:#69140e;
+    color:#fff;
+}
+.footer-links{
+    text-decoration:none;
+    color:rgba(255, 255, 255, 0.75)
+}
+.footer-links:hover{
+    color:rgba(255, 255, 255, 0.95);
+}
+h3{
+    margin:0;
+}
+.parallax{
+    height:100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("images/landing.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+
+}
+.parallax h1{
+    padding:10px;
+    color:white;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:rgba(255, 255, 255, 0.75);
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:rgba(255, 255, 255, 0.95);
+}
+.circle{
+    border-radius:50%;
+}
+.collapse-link{
+    color:black;
+    text-decoration:none;
+    transition-duration:0.2s;
+}
+.collapse-link:hover{
+    color:black;
+    font-size:105%;
+    font-weight:bolder;
+}
+.bg-pm{
+    background-color:#d58936;
+    min-height:50vh;
+    text-align:center;
+}
+.bg-sn{
+    background-color:#a44200;
+    color:white;
+    min-height:50vh;
+    text-align:center;
+}
+.bg-sn .collapse-link, .bg-sn .collapse-link:hover{
+    color:white;
+}
+.bg-sn .collapse-link:hover{
+    color:white;
+}
+.bg-sn h2, .bg-pm h2{
+    margin-top:15%;
+}
+.contact-link, .contact-link:visited{
+    text-decoration:none;
+    color:#69140e;
+}
+.contact-link:hover{
+    color:#69140e;
+    font-weight:normal;
+}
+.contact-link-sn, .contact-link-sn:visited{
+    text-decoration:none;
+    color:#f2f3ae;
+}
+.contact-link-sn:hover{
+    color:#f2f3ae;
+    font-weight:normal;
+}
+.copyrights a, .copyrights a:hover, .copyrights a:visited{
+    color:white;
+}
+.alert-notif{
+    border-top-right-radius:1rem;
+    border-bottom-right-radius:1rem;
+    bottom:25%;
+}
+
+@media(max-width:767.98px){
+    .news-update{
+        border-bottom:1px solid black;
+    }
+    .news-update:last-of-type{
+        border:none;
+    }
+    .news-update img{
+        max-height:400px;
+    }
+}
