@@ -26,12 +26,14 @@ h3{
     background-image:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("images/landing.jpg");
     background-size:cover;
     background-attachment:fixed;
+    background-position:center;
 }
 .parallax-msg{
     height:100vh;
     background-image:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("images/contact.jpg");
     background-size:cover;
     background-attachment:fixed;
+    background-position:center;
 }
 .parallax h1{
     padding:10px;
