@@ -7,9 +7,6 @@ body{
     padding-top:11px;
     padding-bottom:11px;
 }
-.navbar-collapse{
-    text-align:right;
-}
 .footer-container{
     background-color:#69140e;
     color:#fff;
@@ -29,9 +26,18 @@ h3{
     background-image:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("images/landing.jpg");
     background-size:cover;
     background-attachment:fixed;
-
+}
+.parallax-msg{
+    height:100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("images/contact.jpg");
+    background-size:cover;
+    background-attachment:fixed;
 }
 .parallax h1{
+    padding:10px;
+    color:white;
+}
+.parallax-msg h1{
     padding:10px;
     color:white;
 }
