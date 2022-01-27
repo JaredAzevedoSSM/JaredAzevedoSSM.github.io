@@ -7,19 +7,29 @@ body{
     padding-top:11px;
     padding-bottom:11px;
 }
-.footer-container{
-    background-color:#69140e;
-    color:#fff;
+#we h1{
+    color:rgba(97, 175, 239, 1);
+    font-size:calc(1.375rem + 3vw);
+    font-family: 'Source Code Pro', monospace;
+    border-bottom:1.5px solid rgba(97, 175, 239, 1);
 }
-.footer-links{
-    text-decoration:none;
-    color:rgba(255, 255, 255, 0.75)
+#s h1{
+    color:rgba(198, 120, 221, 1);
+    font-size:calc(1.375rem + 3vw);
+    font-family: 'Source Code Pro', monospace;
+    border-bottom:1.5px solid rgba(198, 120, 221, 1);
 }
-.footer-links:hover{
-    color:rgba(255, 255, 255, 0.95);
+#e h1{
+    color:rgba(224, 108, 117, 1);
+    font-size:calc(1.375rem + 3vw);
+    font-family: 'Source Code Pro', monospace;
+    border-bottom:1.5px solid rgba(224, 108, 117, 1);
 }
-h3{
-    margin:0;
+#am h1{
+    color:rgba(152, 195, 121, 1);
+    font-size:calc(1.375rem + 3vw);
+    font-family: 'Source Code Pro', monospace;
+    border-bottom:1.5px solid rgba(152, 195, 121, 1);
 }
 .parallax{
     height:100vh;
@@ -48,63 +58,14 @@ h3{
 }
 .navbar-dark .navbar-nav .nav-link:hover{
     color:rgba(255, 255, 255, 1);
+    border-bottom:1px solid white;
+    padding-bottom:0px;
+    transition:0.3s ease;
 }
-.circle{
-    border-radius:50%;
-}
-.collapse-link{
-    color:black;
-    text-decoration:none;
-    transition-duration:0.2s;
-}
-.collapse-link:hover{
-    color:black;
-    font-size:105%;
-    font-weight:bolder;
-}
-.bg-pm{
-    background-color:#d58936;
-    min-height:50vh;
-    text-align:center;
-}
-.bg-sn{
-    background-color:#a44200;
-    color:white;
-    min-height:50vh;
-    text-align:center;
-}
-.bg-sn .collapse-link, .bg-sn .collapse-link:hover{
-    color:white;
-}
-.bg-sn .collapse-link:hover{
-    color:white;
-}
-.bg-sn h2, .bg-pm h2{
-    margin-top:15%;
-}
-.contact-link, .contact-link:visited{
-    text-decoration:none;
-    color:#69140e;
-}
-.contact-link:hover{
-    color:#69140e;
-    font-weight:normal;
-}
-.contact-link-sn, .contact-link-sn:visited{
-    text-decoration:none;
-    color:#f2f3ae;
-}
-.contact-link-sn:hover{
-    color:#f2f3ae;
-    font-weight:normal;
-}
-.copyrights a, .copyrights a:hover, .copyrights a:visited{
-    color:white;
-}
-.alert-notif{
-    border-top-right-radius:1rem;
-    border-bottom-right-radius:1rem;
-    bottom:25%;
+.navbar-dark .navbar-nav .nav-link.active{
+    border-bottom:1px solid white;
+    padding-bottom:0px;
+    transition:0.3s ease;
 }
 
 @media(max-width:767.98px){

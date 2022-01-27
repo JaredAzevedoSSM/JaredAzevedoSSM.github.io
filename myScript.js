@@ -7,12 +7,12 @@ function toggleOpacity(){
         });
     }
     else{
-        if($(document).scrollTop() < ($(".parallax").height() - $(".navbar").height())){
+        if($(document).scrollTop() <= ($(".offset").height() - $(".navbar").height())){
             $(".navbar").css("background-color", "rgba(255, 255, 255, 0)");
         }
 
         $(document).scroll(function(event){
-            if($(document).scrollTop() > ($(".parallax").height() - $(".navbar").height())){
+            if($(document).scrollTop() >= ($(".offset").height() - $(".navbar").height())){
                 $(".navbar").css("background-color", "rgba(40, 44, 52, 0.9)");
             }
             else{
