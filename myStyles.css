@@ -79,13 +79,19 @@ h1 span{
 }
 
 @media(max-width:767.98px){
-    .news-update{
-        border-bottom:1px solid black;
-    }
-    .news-update:last-of-type{
+    #ex1 h1{
         border:none;
     }
-    .news-update img{
-        max-height:400px;
+    #ex2 h1{
+        border:none;
+    }
+    #ex3 h1{
+        border:none;
+    }
+    #ex4 h1{
+        border:none;
+    }
+    #am h1{
+        border:none;
     }
 }
