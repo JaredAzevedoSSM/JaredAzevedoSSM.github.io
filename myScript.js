@@ -1,12 +1,12 @@
 function toggleOpacity(){
-    if(window.matchMedia('(max-width:991px)').matches){
+    /*if(window.matchMedia('(max-width:991px)').matches){
         $(".navbar").css("background-color", "rgba(40, 44, 52, 0.9)");
 
         $(document).scroll(function(event){
             $(".navbar").css("background-color", "rgba(40, 44, 52, 0.9)");
         });
-    }
-    else{
+    }*/
+    //else{
         if($(document).scrollTop() <= ($(".offset").height() - $(".navbar").height())){
             $(".navbar").css("background-color", "rgba(255, 255, 255, 0)");
         }
@@ -19,7 +19,7 @@ function toggleOpacity(){
                 $(".navbar").css("background-color", "rgba(255, 255, 255, 0)");
             }
         });
-    }
+    //}
 }
 
 $(toggleOpacity);
