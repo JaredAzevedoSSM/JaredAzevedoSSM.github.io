@@ -7,6 +7,12 @@ body{
     padding-top:11px;
     padding-bottom:11px;
 }
+.showcase{
+    width:20rem;
+    border-radius:10%;
+    border:1.5px solid rgba(255, 255, 255, 0.9);
+    margin:1rem;
+}
 h1 span{
     font-size:1.25rem!important;
     background-color:rgba(40, 44, 52, 0.9);
