@@ -9,10 +9,12 @@ body{
 }
 .showcase{
     width:20rem;
+    max-height:20rem;
     border-radius:10%;
     border:1.5px solid rgba(255, 255, 255, 0.9);
     margin:1rem;
     float:right;
+    object-fit:cover;
 }
 h1 span{
     font-size:1.25rem!important;
@@ -137,6 +139,12 @@ svg{
     border-bottom:1px solid white;
     padding-bottom:0px;
     transition:0.3s ease;
+}
+footer a{
+    text-decoration:none;
+}
+footer a:hover{
+    text-decoration:underline;
 }
 
 @media(max-width:767.98px){
