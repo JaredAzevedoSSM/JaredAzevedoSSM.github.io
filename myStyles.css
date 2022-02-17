@@ -16,8 +16,8 @@ body{
     float:right;
     object-fit:cover;
 }
-h1 span{
-    font-size:1.25rem!important;
+h1 span, h2 span{
+    font-size:1rem!important;
     background-color:rgba(40, 44, 52, 0.9);
 }
 .accordion-button::after{
