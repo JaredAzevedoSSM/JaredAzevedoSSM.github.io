@@ -26,17 +26,24 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#ex1">Sault Tribe</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#ex2">CS124</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#ex3">PWR 2</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#ex4">Web Bootcamp</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Experiences
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ex1">Sault Tribe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ex2">CS124</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ex3">PWR 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ex4">Web Bootcamp</a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#am">About Me</a>
@@ -52,11 +59,15 @@
         </div>
     </nav>
 
-    <body data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-offset="0" tabindex="0">
-        <div class="parallax d-flex justify-content-center align-items-center offset">
-            <h1 class="display1">
+    <body>
+        <div class="parallax d-flex justify-content-center align-items-center flex-column offset">
+            <h1 class="display-5">
                 Leadership. Passion. Curiosity. 
             </h1>
+            <p class="lead text-center">
+                Hi there! I'm Jared Azevedo - an aspiring software engineer with a multicultural and multidiscplinary background. 
+                Throughout my life, I have focused and developed around three key values: leadership, passion, and curiosity. 
+            </p>
         </div>
 
         <div class="contianer-fluid" id="transition">
@@ -66,7 +77,7 @@
                         Exploring My Story
                     </h1>
                     <p class="lead m-3 mb-0">
-                        As you scroll on, you will see my recent experiences. These range from work experiences to academic experiences. You can 
+                        As you scroll on, you will be exposed to some of my recent experiences. These range from work experiences to academic experiences. You can 
                         use the tags adjacent to each experience title to get a better idea of what you might find under the expandable boxes. The 
                         boxes are similar across all experiences, so you can look in the same spot for each experience to find the right information 
                         you might be looking for. Feel free to use the navigation bar to jump around my site and quickly access the details you want. 
@@ -80,8 +91,79 @@
             <div class="row justify-content-center gx-0">
                 <div class="col-md-8">
                     <h1 class="text-center fw-light m-5 pb-1">
-                        Sault Tribe Internship <span class="badge rounded-pill align-middle">Team</span> <span class="badge rounded-pill align-middle">Business Need</span>
+                        Sault Tribe Internship <!-- <span class="badge rounded-pill align-middle">Team</span> -->
                     </h1>
+                    <div class="row gx-0">
+                        <div class="col-md-7 px-2">
+                            <p class="lead">
+                                I spent ten weeks working for my tribe, the Sault Tribe of Chippewa Indians, in the Executive Office. I 
+                                interned with four other students who were given positions in different offices within the Tribe. Despite 
+                                initially wanting to work with their tech department, I thoroughly enjoyed my time with the Executive Office. 
+                            </p>
+                            <img class="showcase" src="images/teamwork.jpg">
+                            <img class="showcase" src="images/office.jpg">
+                            <p class="lead">
+                                I came into the program unsure of what to expect, but by the end I have been able to develop a variety 
+                                of skills. First, I was able to increase my leadership experience and frequently found myself working 
+                                in a team with my peers. I took this chance to take the lead and ensure that everyone was able to get out 
+                                of the workshops what they wanted. 
+                            </p>
+                        </div>
+                        <div class="col-md-5 px-2 takeaways">
+                            <h3>
+                                Skills Gained
+                            </h3>
+                            <ul>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                            </ul>
+                            <h3>
+                                Concepts Learned
+                            </h3>
+                            <ul>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                            </ul>
+                            <h3>
+                                Miscellaneous
+                            </h3>
+                            <ul>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--
                     <div class="accordion accordion-flush my-5" id="ex1accordion">
                         <div class="accordion-item">
                             <h2 id="ex1accordion-heading1">
@@ -193,6 +275,7 @@
                             </div>
                         </div>
                     </div>
+                    -->
                 </div>
             </div>
         </div>
@@ -203,11 +286,87 @@
                     <h1 class="text-center fw-light m-5 pb-1">
                         Stanford University - From Languages to Information
                     </h1>
+                    <div class="row gx-0">
+                        <div class="col-md-7 px-2">
+                            <img class="showcase" src="images/google.jpg">
+                            <p class="lead">
+                                The next couple of assignments looked a lot more like what I expected. It started with us implementing a 
+                                Naive-Bayes classifier and then Logistic Regression. For the first time, I was able to use my prior coding 
+                                knowledge to create something that has actual value outside of the classroom. 
+                            </p>
+                            <img class="showcase" src="images/nn.jpg">
+                            <p class="lead">
+                                While rather basic, these concepts helped lead us into neural networks. The neural networks we created 
+                                vastly outperformed any other models we had created and excited me to learn more about neural networks 
+                                and deep learning!
+                            </p>
+                            <p class="lead">
+                                I keep saying we because the project was to be completed with a team, so it was another opportunity to 
+                                demonstrate my teamwork skills and help lead when others were falling behind. It was a great way to bring 
+                                together everything we had learned to create a robust and realistic deliverable that we were all proud of 
+                                by the end.
+                            </p>
+                        </div>
+                        <div class="col-md-5 px-2 takeaways">
+                            <h3>
+                                Skills Gained
+                            </h3>
+                            <ul>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                            </ul>
+                            <h3>
+                                Concepts Learned
+                            </h3>
+                            <ul>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                            </ul>
+                            <h3>
+                                Miscellaneous
+                            </h3>
+                            <ul>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--
                     <div class="accordion accordion-flush my-5" id="ex2accordion">
                         <div class="accordion-item">
                             <h2 id="ex2accordion-heading1">
                                 <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#ex2accordion-at1" aria-expanded="false" aria-controls="ex2accordion-at1">
-                                The First Assignment <span class="badge rounded-pill align-middle mx-2">Coding</span>
+                                The First Assignment
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                                 </svg>
@@ -230,7 +389,7 @@
                         <div class="accordion-item">
                             <h2 id="ex2accordion-heading2">
                                 <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#ex2accordion-at2" aria-expanded="false" aria-controls="ex2accordion-at2">
-                                Data Processing & Querying Assignments <span class="badge rounded-pill align-middle mx-2">Coding</span>
+                                Data Processing & Querying Assignments
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                                 </svg>
@@ -261,7 +420,7 @@
                         <div class="accordion-item">
                             <h2 id="ex2accordion-heading3">
                                 <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#ex2accordion-at3" aria-expanded="false" aria-controls="ex2accordion-at3">
-                                AI Assignments <span class="badge rounded-pill align-middle mx-2">Coding</span>
+                                AI Assignments
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                                 </svg>
@@ -291,7 +450,7 @@
                         <div class="accordion-item">
                             <h2 id="ex2accordion-heading4">
                                 <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#ex2accordion-at4" aria-expanded="false" aria-controls="ex2accordion-at4">
-                                The Final Assignment <span class="badge rounded-pill align-middle mx-2">Coding</span>
+                                The Final Assignment
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                                 </svg>
@@ -316,7 +475,7 @@
                         <div class="accordion-item">
                             <h2 id="ex2accordion-heading5">
                                 <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#ex2accordion-at5" aria-expanded="false" aria-controls="ex2accordion-at5">
-                                Capstone Project - Movie Recommender Bot <span class="badge rounded-pill align-middle mx-2">Coding</span>
+                                Capstone Project - Movie Recommender Bot
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                                 </svg>
@@ -346,6 +505,7 @@
                             </div>
                         </div>
                     </div>
+                    -->
                 </div>
             </div>
         </div>
@@ -354,8 +514,87 @@
             <div class="row justify-content-center gx-0">
                 <div class="col-md-8">
                     <h1 class="text-center fw-light m-5 pb-1">
-                        Stanford University - Writing & Rhetoric 2: Ethics and AI <span class="badge rounded-pill align-middle">Research</span> <span class="badge rounded-pill align-middle">Environmentalism</span>
+                        Stanford University - Writing & Rhetoric 2: Ethics and AI
                     </h1>
+                    <div class="row gx-0">
+                        <div class="col-md-7 px-2">
+                            <img class="showcase" src="images/research.jpg">
+                            <p class="lead">
+                                After my proposal, the next part of my process was conducting my research on smart grids. I knew very little 
+                                about smart grids prior to this project, but by the end I had learned many of the intricacies and difficulties 
+                                faced by proponents of smart grids. I was able to comb through a relatively dense number of sources by using key 
+                                words when searching and skimming through the abstracts and sections of ones I opened. The ability to process 
+                                a lot of this material and data quickly aided me greatly in selecting great sources. 
+                            </p>
+                            <p class="lead">
+                                Once I had selected my sources, the next challenge came in choosing the information that I wanted to use. I 
+                                wanted to convey the main ideas and ways to go about smart grids but also infuse some of the finer details to 
+                                create a convincing argument. This proved to be a longer process than I imagined, but I thoroughly enjoyed 
+                                piecing together relevant information from different sources to build my argument and position. 
+                            </p>
+                            <img class="showcase" src="images/feedback.jpg">
+                            <p class="lead">
+                                This entire research process let me know what is important and not important when people's time is limited. 
+                                I had to be clear with my messages and still formulate a strong argument. It is clear to me that being 
+                                thorough in my work and being receptive to feedback is key to having a learning mindset. My ability to speak 
+                                with confidence and create both strong oral and written arguments has greatly improved since taking this course.
+                            </p>
+                        </div>
+                        <div class="col-md-5 px-2 takeaways">
+                            <h3>
+                                Skills Gained
+                            </h3>
+                            <ul>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                            </ul>
+                            <h3>
+                                Concepts Learned
+                            </h3>
+                            <ul>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                            </ul>
+                            <h3>
+                                Miscellaneous
+                            </h3>
+                            <ul>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--
                     <div class="accordion accordion-flush my-5" id="ex3accordion">
                         <div class="accordion-item">
                             <h2 id="ex3accordion-heading1">
@@ -507,6 +746,7 @@
                             </div>
                         </div>
                     </div>
+                    -->
                 </div>
             </div>
         </div>
@@ -515,8 +755,87 @@
             <div class="row justify-content-center gx-0">
                 <div class="col-md-8">
                     <h1 class="text-center fw-light m-5 pb-1">
-                        Udemy - Web Developer Bootcamp <span class="badge rounded-pill align-middle">Coding</span> <span class="badge rounded-pill align-middle">Learner</span>
+                        Udemy - Web Developer Bootcamp
                     </h1>
+                    <div class="row gx-0">
+                        <div class="col-md-7 px-2">
+                            <p class="lead">
+                                The next few lessons focused on working with routing. I was learning how to work with libraries such as node.js 
+                                and express.js to create truly dynamic webpages that could serve both personal and commercial use. 
+                            </p>
+                            <p class="lead">
+                                My favorite concept that I learned to play with was databases. I was introduced to both SQL and non-SQL 
+                                database types, but worked with MongoDB (a non SQL database) throughout the course. I was finally ready 
+                                to build application with persistant data and information such as user accounts and shopping carts.
+                            </p>
+                            <img class="showcase" src="images/db.jpg">
+                            <p class="lead">
+                                I created this mock website as part of a project proposal during an internship I did. It started out as 
+                                just an illustration of a landing page and subpage, but I decided to copy over as much of the existing content 
+                                as I could to show what different styles we could persue and what changes I would make to how and where information 
+                                was being shared. You can click here to view the GitHub repo containing the website as it last was. 
+                            </p>
+                            <p class="lead">
+                                Having an ePortfolio was something I always wanted to do, but having the confidence to create one was something 
+                                that I lacked. I finally decided to tackle this website to show off not just who I am, but also creating a living 
+                                document using my web design and coding abilities.
+                            </p>
+                        </div>
+                        <div class="col-md-5 px-2 takeaways">
+                            <h3>
+                                Skills Gained
+                            </h3>
+                            <ul>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                            </ul>
+                            <h3>
+                                Concepts Learned
+                            </h3>
+                            <ul>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                            </ul>
+                            <h3>
+                                Miscellaneous
+                            </h3>
+                            <ul>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--
                     <div class="accordion accordion-flush my-5" id="ex1accordion">
                         <div class="accordion-item">
                             <h2 id="ex4accordion-heading1">
@@ -655,6 +974,7 @@
                             </div>
                         </div>
                     </div>
+                    -->
                 </div>
             </div>
         </div>
@@ -665,6 +985,99 @@
                     <h1 class="text-center fw-light m-5 pb-1">
                         About Me
                     </h1>
+                    <div class="row gx-0">
+                        <div class="col-md-7 px-2">
+                            <p class="lead">
+                                The biggest factor in a lot of the life decisions I have made is my family. Being able to provide and take care 
+                                of them later in life is something I want to have the flexibility to do. It is also important to me that I am 
+                                able to live up to the expectations they had for themselves (i.e. they have been excellent role models).
+                            </p>
+                            <img class="showcase" src="images/bridge.jpg">
+                            <p class="lead">
+                                When people ask where I come from, I usually reply Sault Ste. Marie, Michigan. However, the truth is I grew 
+                                up on a small island right across the St. Mary's river from Sault Ste. Marie called Sugar Island. Growing up 
+                                in a close-knit community was incredibly nice and I consider myself fortunate for that, but it did little to 
+                                prepare me for the next chapters of my life.
+                            </p>
+                            <p class="lead">
+                                One of the defining characteristics of Stanford isn't the history or location, but rather the diverse range 
+                                of courses they require undergraduates to take. Instead of spending all my time in exactly one field, I have 
+                                been granted the chance to persue many different interests to create a unique background that truly speaks to 
+                                who I am and what I want to do in life. It has forced me to have a multidiscplinary background that has helped 
+                                me view problems from different angles and come up with new solutions some might not see at first.
+                            </p>
+                            <img class="showcase" src="images/ny.jpg">
+                            <p class="lead">
+                                The major thing I hope to accomplish through my body of work is create sustainable tech. This might take a variety 
+                                of forms, such as helping with smart grids or creating an entirely new technology. It might also include creating 
+                                software and hardware that we use in computers that do not consume as much energy or are made of materials that are 
+                                more environmentally friendly. Either way, my main goal for work is to make technology not just better our lives, but 
+                                the lives of the generations ahead and the planet we will leave for them to inherit. 
+                            </p>
+                            <p class="lead">
+                                I think it would be hard to achieve the above ambitions without leaving some sort of impact on society. Even with 
+                                other work that I will enjoy along my journey, I want to something that improves the lives of my peers and everyone 
+                                around me. 
+                            </p>
+                            <a href="#infographic">
+                                <img id="infographic" class="infographic mx-auto d-block" src="images/meInfographic.jpg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            </a>
+                        </div>
+                        <div class="col-md-5 px-2 takeaways">
+                            <h3>
+                                Skills Gained
+                            </h3>
+                            <ul>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                            </ul>
+                            <h3>
+                                Concepts Learned
+                            </h3>
+                            <ul>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                            </ul>
+                            <h3>
+                                Miscellaneous
+                            </h3>
+                            <ul>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                                <li>
+                                    Placeholder
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--
                     <div class="accordion accordion-flush my-5" id="amaccordion">
                         <div class="accordion-item">
                             <h2 id="amaccordion-heading1">
@@ -844,6 +1257,41 @@
                             </div>
                         </div>
                     </div>
+                    -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Get to Know Me, by Me</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5>
+                            Leadership
+                        </h5>
+                        <audio controls>
+                            <source src="audio/leadershipAudio.m4a" type="audio/x-m4a">
+                        </audio>
+                        <h5>
+                            Passion
+                        </h5>
+                        <audio controls>
+                            <source src="audio/passionAudio.m4a" type="audio/x-m4a">
+                        </audio>
+                        <h5>
+                            Curiosity
+                        </h5>
+                        <audio controls>
+                            <source src="audio/curiosityAudio.m4a" type="audio/x-m4a">
+                        </audio>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -856,7 +1304,3 @@
         </p>
     </footer>
 </html>
-
-
-
-<!-note to self: use modals from bootstrap in an infographic under about me to add another interactive element to my site plus use mm artifacts-->
