@@ -22,6 +22,12 @@ body{
     height:auto;
     max-height:20rem;
 }
+.my-link{
+    color:inherit;
+}
+.my-link:hover{
+    color:black;
+}
 h1 span, h2 span{
     font-size:1rem!important;
     background-color:rgba(40, 44, 52, 0.9);
