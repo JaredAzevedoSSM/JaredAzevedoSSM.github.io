@@ -23,31 +23,34 @@ function toggleOpacity(){
             }
         });
     //}
-}
+};
 
-function scrollTrigger(selector){
+function scrollTrigger(selector, options = {}){
     let els = document.querySelectorAll(selector);
     els = Array.from(els);
 
     els.forEach(el => {
         addObserver(el, options);
     })
-}
+};
 
 function addObserver(el, options){
+    if(!('IntersectionObserver' in window)) {
+        entry.target.classList.add('scroll-active');
+        return;
+    };
+
     let observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if(entry.isIntersecting){
-                entry.target.classList.add('active')
-                observer.unobserve(entry.target)
+                entry.target.classList.add('scroll-active');
+                observer.unobserve(entry.target);
             }
         })
-    })
+    }, options);
 
-    observer.observe(el)
-}
-
-scrollTrigger('.scroll-animate', {rootMargin:"-200px"})
+    observer.observe(el);
+};
 
 $(toggleOpacity);
 $(window).resize(toggleOpacity);
