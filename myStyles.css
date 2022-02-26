@@ -212,3 +212,16 @@ footer a:hover{
         margin:auto;
     }
 }
+
+@media(max-width:1199.98px){
+    .navbar-dark .navbar-nav .nav-link:hover{
+        border-bottom:none;
+        padding-bottom:0.5rem;
+        transition:none;
+    }
+    .navbar-dark .navbar-nav .nav-link.active{
+        border-bottom:0px;
+        padding-bottom:0.5rem;
+        transition:none;
+    }
+}
