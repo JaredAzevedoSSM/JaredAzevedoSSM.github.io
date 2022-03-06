@@ -7,8 +7,13 @@ body{
     padding-top:11px;
     padding-bottom:11px;
 }
-.showcase{
+.landscape{
     width:95%;
+}
+.portrait{
+    width:auto;
+}
+.photo{
     max-height:20rem;
     border-radius:10%;
     border:1.5px solid rgba(255, 255, 255, 0.9);
@@ -21,7 +26,6 @@ body{
 .infographic{
     width:85%;
     height:auto;
-    max-height:20rem;
 }
 .my-link{
     color:inherit;
