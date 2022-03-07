@@ -198,7 +198,7 @@ footer a:hover{
     text-decoration:underline;
 }
 p{
-    margin-bottom:0!important;
+    margin:0.5rem 0 !important;
 }
 .expansion h3:not(:first-child){
     margin-top:0.5rem;
