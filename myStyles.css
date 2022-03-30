@@ -60,6 +60,7 @@ svg{
 .accordion-button:not(.collapsed) svg{
     transform:rotate(-180deg);
 }
+/*for next example use an orange color*/
 #ex1 h1{
     color:rgba(97, 175, 239, 1);
     font-size:calc(1.375rem + 3vw);
