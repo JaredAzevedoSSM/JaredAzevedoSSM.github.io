@@ -60,7 +60,23 @@ svg{
 .accordion-button:not(.collapsed) svg{
     transform:rotate(-180deg);
 }
-/*for next example use pastel orange as coloring*/
+#ex5 h1{
+    color:rgba(241, 135, 1, 1);
+    font-size:calc(1.375rem + 3vw);
+    font-family: 'Source Code Pro', monospace;
+    border-bottom:1.5px solid rgba(241, 135, 1, 1);
+}
+#ex5 .accordion-button:not(.collapsed){
+    color:rgba(241, 135, 1, 1);
+    background-color:rgba(241, 135, 1, 0.2);
+}
+#ex5 .accordion-button:focus{
+    border-color:rgba(241, 135, 1, 1);
+    box-shadow:0 0 0 0.25rem rgba(241, 135, 1, 1);
+}
+#ex5 .takeaways{
+    color:rgba(241, 135, 1, 1);
+}
 #ex1 h1{
     color:rgba(97, 175, 239, 1);
     font-size:calc(1.375rem + 3vw);
