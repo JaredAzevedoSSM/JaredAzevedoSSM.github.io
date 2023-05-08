@@ -11,7 +11,7 @@ body{
     width:95%;
 }
 .portrait{
-    width:auto;
+    width:80%;
 }
 .photo{
     max-height:20rem;
@@ -164,14 +164,14 @@ svg{
 }
 .parallax{
     height:100vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("images/landing3.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url("images/landing3.jpg");
     background-size:cover;
     background-attachment:fixed;
     background-position:center;
 }
 .parallax-msg{
     height:100vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("images/contact.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url("images/contact.jpg");
     background-size:cover;
     background-attachment:fixed;
     background-position:center;
@@ -202,8 +202,14 @@ svg{
     padding-bottom:0px;
     transition:0.3s ease;
 }
+.navbar-dark .navbar-nav .dropdown-menu .nav-link:hover{
+    border-bottom:0px;
+    padding-bottom:0.5rem;
+    transition:none;
+}
 .dropdown-menu{
-    background-color:rgba(255, 255, 255, 0)
+    background-color:rgba(255, 255, 255, 0);
+    border:none;
 }
 footer{
     font-size:0.6rem;
@@ -245,6 +251,12 @@ p{
 }
 
 @media(max-width:1199.98px){
+    .navbar-collapse{
+        background-color:rgba(25, 25, 25, 0.80);
+        border-radius:10px;
+        padding:7.5px;
+        margin-top:7.5px;
+    }
     .navbar-dark .navbar-nav .nav-link:hover{
         border-bottom:none;
         padding-bottom:0.5rem;
@@ -254,5 +266,12 @@ p{
         border-bottom:0px;
         padding-bottom:0.5rem;
         transition:none;
+    }
+    .dropdown-menu{
+        border-top: rgba(255, 255, 255, 0.9) solid 1px;
+        border-bottom: rgba(255, 255, 255, 0.9) solid 1px;
+    }
+    .dropdown-menu li{
+        padding-left:10px;
     }
 }
