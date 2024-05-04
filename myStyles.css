@@ -12,6 +12,7 @@ body{
 }
 .portrait{
     width:80%;
+    object-position: 50% 30%;
 }
 .photo{
     max-height:20rem;
@@ -59,6 +60,23 @@ svg{
 }
 .accordion-button:not(.collapsed) svg{
     transform:rotate(-180deg);
+}
+#ex6 h1{
+    color:rgb(194, 198, 0);
+    font-size:calc(1.375rem + 3vw);
+    font-family: 'Source Code Pro', monospace;
+    border-bottom:1.5px solid rgba(194, 198, 1, 1);
+}
+#ex6 .accordion-button:not(.collapsed){
+    color:rgba(194, 198, 1, 1);
+    background-color:rgba(194, 198, 1, 0.2);
+}
+#ex6 .accordion-button:focus{
+    border-color:rgba(194, 198, 1, 1);
+    box-shadow:0 0 0 0.25rem rgba(194, 198, 1, 1);
+}
+#ex6 .takeaways{
+    color:rgba(194, 198, 1, 1);
 }
 #ex5 h1{
     color:rgba(241, 135, 1, 1);
@@ -164,7 +182,7 @@ svg{
 }
 .parallax{
     height:100vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url("images/landing3.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url("images/lakeDiabloLanding.jpg");
     background-size:cover;
     background-attachment:fixed;
     background-position:center;
