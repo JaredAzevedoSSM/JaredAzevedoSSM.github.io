@@ -266,6 +266,13 @@ p{
         display:block;
         margin:auto;
     }
+    .parallax{
+        height:100vh;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url("images/pnwLandingMobile.jpg");
+        background-size:cover;
+        background-attachment:fixed;
+        background-position:center;
+    }
 }
 
 @media(max-width:1199.98px){
