@@ -244,7 +244,7 @@ p{
 .expansion h3:not(:first-child){
     margin-top:0.5rem;
 }
-body .container-fluid{
+.container-fluid:not(:first-of-type){
     margin-top:50px;
 }
 
