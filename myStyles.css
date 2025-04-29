@@ -195,12 +195,15 @@ svg{
     background-position:center;
 }
 .parallax h1, .parallax p{
-    padding:10px;
+    padding:10px 10%;
     color:white;
 }
 .parallax-msg h1{
     padding:10px;
     color:white;
+}
+.container-fluid{
+    margin-top:50px;
 }
 .takeaways ul{
     font-weight:300;
