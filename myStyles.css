@@ -202,9 +202,6 @@ svg{
     padding:10px;
     color:white;
 }
-.container-fluid{
-    margin-top:50px;
-}
 .takeaways ul{
     font-weight:300;
     font-size:1.25rem;
@@ -246,6 +243,9 @@ p{
 }
 .expansion h3:not(:first-child){
     margin-top:0.5rem;
+}
+body .container-fluid{
+    margin-top:50px;
 }
 
 @media(max-width:767.98px){
