@@ -47,34 +47,21 @@ h1 span, h2 span{
     font-size:1rem!important;
     background-color:rgba(40, 44, 52, 0.9);
 }
-/* .accordion-button::after{
-    background-image:none;
-    width:0;
-    margin:0;
-} */
-/* svg{
-    margin-left:auto;
-    transition: transform 0.2s ease-in-out;
-    width:1.5rem;
-    height:1.5rem;
-} */
-/* .accordion-button:not(.collapsed) svg{
-    transform:rotate(-180deg);
-} */
+#ex7 h1{
+    color:rgb(1, 115, 43);
+    font-size:calc(1.375rem + 3vw);
+    font-family: 'Source Code Pro', monospace;
+    border-bottom:1.5px solid rgba(1, 115, 43, 1);
+}
+#ex7 .takeaways{
+    color:rgba(1, 115, 43, 1);
+}
 #ex6 h1{
     color:rgb(194, 198, 0);
     font-size:calc(1.375rem + 3vw);
     font-family: 'Source Code Pro', monospace;
     border-bottom:1.5px solid rgba(194, 198, 1, 1);
 }
-/* #ex6 .accordion-button:not(.collapsed){
-    color:rgba(194, 198, 1, 1);
-    background-color:rgba(194, 198, 1, 0.2);
-}
-#ex6 .accordion-button:focus{
-    border-color:rgba(194, 198, 1, 1);
-    box-shadow:0 0 0 0.25rem rgba(194, 198, 1, 1);
-} */
 #ex6 .takeaways{
     color:rgba(194, 198, 1, 1);
 }
@@ -84,14 +71,6 @@ h1 span, h2 span{
     font-family: 'Source Code Pro', monospace;
     border-bottom:1.5px solid rgba(241, 135, 1, 1);
 }
-/* #ex5 .accordion-button:not(.collapsed){
-    color:rgba(241, 135, 1, 1);
-    background-color:rgba(241, 135, 1, 0.2);
-}
-#ex5 .accordion-button:focus{
-    border-color:rgba(241, 135, 1, 1);
-    box-shadow:0 0 0 0.25rem rgba(241, 135, 1, 1);
-} */
 #ex5 .takeaways{
     color:rgba(241, 135, 1, 1);
 }
@@ -101,14 +80,6 @@ h1 span, h2 span{
     font-family: 'Source Code Pro', monospace;
     border-bottom:1.5px solid rgba(97, 175, 239, 1);
 }
-/* #ex1 .accordion-button:not(.collapsed){
-    color:rgba(97, 175, 239, 1);
-    background-color:rgba(97, 175, 239, 0.2);
-}
-#ex1 .accordion-button:focus{
-    border-color:rgba(97, 175, 239, 1);
-    box-shadow:0 0 0 0.25rem rgba(97, 175, 239, 1);
-} */
 #ex1 .takeaways{
     color:rgba(97, 175, 239, 1);
 }
@@ -118,14 +89,6 @@ h1 span, h2 span{
     font-family: 'Source Code Pro', monospace;
     border-bottom:1.5px solid rgba(198, 120, 221, 1);
 }
-/* #ex2 .accordion-button:not(.collapsed){
-    color:rgba(198, 120, 221, 1);
-    background-color:rgba(198, 120, 221, 0.2);
-}
-#ex2 .accordion-button:focus{
-    border-color:rgba(198, 120, 221, 1);
-    box-shadow:0 0 0 0.25rem rgba(198, 120, 221, 1);
-} */
 #ex2 .takeaways{
     color:rgba(198, 120, 221, 1);
 }
@@ -135,14 +98,6 @@ h1 span, h2 span{
     font-family: 'Source Code Pro', monospace;
     border-bottom:1.5px solid rgba(224, 108, 117, 1);
 }
-/* #ex3 .accordion-button:not(.collapsed){
-    color:rgba(224, 108, 117, 1);
-    background-color:rgba(224, 108, 117, 0.2);
-}
-#ex3 .accordion-button:focus{
-    border-color:rgba(224, 108, 117, 1);
-    box-shadow:0 0 0 0.25rem rgba(224, 108, 117, 1);
-} */
 #ex3 .takeaways{
     color:rgba(224, 108, 117, 1);
 }
@@ -152,14 +107,6 @@ h1 span, h2 span{
     font-family: 'Source Code Pro', monospace;
     border-bottom:1.5px solid rgba(86, 182, 194, 1);
 }
-/* #ex4 .accordion-button:not(.collapsed){
-    color:rgba(86, 182, 194, 1);
-    background-color:rgba(86, 182, 194, 0.2);
-}
-#ex4 .accordion-button:focus{
-    border-color:rgba(86, 182, 194, 1);
-    box-shadow:0 0 0 0.25rem rgba(86, 182, 194, 1);
-} */
 #ex4 .takeaways{
     color:rgba(86, 182, 194, 1);
 }
@@ -169,14 +116,6 @@ h1 span, h2 span{
     font-family: 'Source Code Pro', monospace;
     border-bottom:1.5px solid rgba(152, 195, 121, 1);
 }
-/* #am .accordion-button:not(.collapsed){
-    color:rgba(152, 195, 121, 1);
-    background-color:rgba(152, 195, 121, 0.2);
-}
-#am .accordion-button:focus{
-    border-color:rgba(152, 195, 121, 1);
-    box-shadow:0 0 0 0.25rem rgba(152, 195, 121, 1);
-} */
 #am .takeaways{
     color:rgba(152, 195, 121, 1);
 }
@@ -267,14 +206,12 @@ p{
     #ex6 h1{
         border:none;
     }
+    #ex7 h1{
+        border:none;
+    }
     #am h1{
         border:none;
     }
-    /* .showcase{
-        float:none;
-        display:block;
-        margin:auto;
-    } */
     .parallax{
         height:100vh;
         background-image:linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url("images/pnwLandingMobile.jpg");
