@@ -133,11 +133,22 @@ h1 span, h2 span{
     background-attachment:fixed;
     background-position:center;
 }
+.parallax-393{
+    height:100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url("images/393page.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+}
 .parallax h1, .parallax p{
     padding:10px 10%;
     color:white;
 }
 .parallax-msg h1{
+    padding:10px;
+    color:white;
+}
+.parallax-393 h1{
     padding:10px;
     color:white;
 }
